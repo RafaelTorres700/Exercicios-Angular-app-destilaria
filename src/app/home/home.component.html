@@ -1,0 +1,17 @@
+
+
+<div>
+   <div class="produtos-lista">
+    <h1>Produtos Destilária</h1>
+    <!-- <p>{{ produtosService.variavelExemplo }}</p> -->
+    <!-- <p>Produtos sendo vistos: {{ produtosService.produtosSendoVistos }}</p> -->
+  <ul>
+    <li *ngFor="let produto of produtosService.produtos">
+      <h3>{{ produto.rotulo }}</h3>
+      <img [src]="produto.foto" alt="{{ produto.rotulo }}">
+      <p>{{ produto.detalhe }}</p>
+      <!-- <button (click)="navegarParaDetalhes(produto)">Ver Detalhes</button> -->
+    </li>
+  </ul>
+  </div>
+</div>
