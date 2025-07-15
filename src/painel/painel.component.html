@@ -1,1 +1,7 @@
-<p>painel works!</p>
+<div class="simple-login-container">
+  <h2>Login</h2>
+  <input [(ngModel)]="usuario" placeholder="Usuário" />
+  <input [(ngModel)]="senha" placeholder="Senha" type="password" />
+  <button (click)="entrar()">Entrar</button>
+  <p *ngIf="erro" style="color:red">Login inválido</p>
+</div>
