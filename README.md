@@ -1,7 +1,7 @@
 # 🥃 Destilaria Vintage & Cia
 
 <div align="center">
-  <img src="https://tenor.com/pt-BR/view/toilet-seat-girls-night-out-lysol-gif-15311176321361387741"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTFjam0ybzE4eHpsczZiMWkxZm9oOGNrcDkxOXptZ3ZzdDE1YmNxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4Yqr7VqAji6NGmhQTM/giphy.gif" alt="Destilaria vintage" width="360"/>
 </div>
 
 
