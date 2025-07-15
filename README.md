@@ -1,59 +1,51 @@
-# ExercicioRotas
+# 🥃 Destilaria Vintage & Cia
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
-## Development server
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+Bem-vindo ao repositório oficial do sistema **Destilaria Vintage & Cia**!
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Fundada em 1995, a Destilaria Vintage & Cia é uma empresa familiar dedicada à produção artesanal de bebidas premium. Nossa loja oferece uma seleção exclusiva de destilados únicos, combinando **tradição** e **inovação** em cada produto.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🎯 Nossa Missão
 
-```bash
-ng generate component component-name
-```
+> Criar experiências únicas através de destilados de alta qualidade.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🕰️ Tradição
 
-## Building
+Com mais de **25 anos de experiência** na arte da destilação, somos referência em qualidade, excelência artesanal e atendimento personalizado.
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 💼 Nossos Serviços
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 🥃 Degustação  
+Experimente nossos melhores destilados em sessões guiadas por especialistas apaixonados pela arte da bebida.
 
-## Running unit tests
+### 🏭 Tours na Destilaria  
+Conheça todo o processo de produção dos nossos destilados artesanais, desde a fermentação até o envase final.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 🎓 Cursos  
+Aprenda com nossos mestres destiladores. Oferecemos cursos sobre técnicas de destilação, harmonização e produção artesanal.
 
-```bash
-ng test
-```
+### 🎁 Eventos Personalizados  
+Organizamos eventos especiais para empresas, aniversários, casamentos e outras celebrações particulares.
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-ng e2e
-```
+- HTML5 / CSS3 / JavaScript
+- Angular 19
+- Node.js / Express
+- MySQL
+- [Outras tecnologias futuras a depender da evolução do projeto]
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 📂 Organização do Projeto
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
