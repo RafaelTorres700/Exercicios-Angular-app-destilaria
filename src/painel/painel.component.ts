@@ -1,38 +1,31 @@
 import { Component } from '@angular/core';
-import { AuthService } from '../app/services/auth.service';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
-
+import { AuthService } from '../app/services/auth.service';
 
 @Component({
   selector: 'app-painel',
-  imports: [FormsModule, ReactiveFormsModule,RouterModule, CommonModule],
+  standalone: true,
+  imports: [FormsModule, RouterModule, CommonModule],
   templateUrl: './painel.component.html',
-  styleUrl: './painel.component.css',
-  providers: [AuthService]
+  styleUrl: './painel.component.css'
 })
 export class PainelComponent {
-  cadastroForm: FormGroup;
+  username = '';
+  password = '';
+  errorMessage = '';
 
-  constructor(private fb: FormBuilder) {
-    this.cadastroForm = this.fb.group({
-      nome: ['', Validators.required],
-      email: ['', [Validators.required, Validators.email]],
-      senha: ['', [Validators.required, Validators.minLength(6)]],
-      dataNascimento: ['', Validators.required],
-      telefone: ['', Validators.required]
-    });
-  }
+  constructor(
+    private authService: AuthService,
+    private router: Router
+  ) { }
 
-  enviarCadastro() {
-    if (this.cadastroForm.valid) {
-      console.log(this.cadastroForm.value);
-      alert('Formulário enviado com sucesso!');
+  onLogin() {
+    if (this.authService.login(this.username, this.password)) {
+      this.router.navigate(['/home']);
     } else {
-      alert('Formulário inválido');
+      this.errorMessage = 'Usuário ou senha incorretos!';
     }
   }
-
 }

@@ -1,23 +1,37 @@
-<h1>Formulário Cadastro</h1>
-
-
+<h1>Login - Destilaria Vintage & Cia</h1>
 
 <div class="form-container">
-  <form [formGroup]="cadastroForm" (ngSubmit)="enviarCadastro()">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" formControlName="nome">
+  <form (ngSubmit)="onLogin()">
+    <label for="username">Usuário:</label>
+    <input
+      type="text"
+      id="username"
+      [(ngModel)]="username"
+      name="username"
+      placeholder="Digite: admin"
+      required
+    />
 
-    <label for="email">E-mail:</label>
-    <input type="email" id="email" formControlName="email">
+    <label for="password">Senha:</label>
+    <input
+      type="password"
+      id="password"
+      [(ngModel)]="password"
+      name="password"
+      placeholder="Digite: 123"
+      required
+    />
 
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha" formControlName="senha">
+    <button type="submit">Entrar</button>
 
-    <label for="dataNascimento">Data de Nascimento:</label>
-    <input type="date" id="dataNascimento" formControlName="dataNascimento">
-
-    <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone" formControlName="telefone">
-
-    <button type="submit">Enviar</button>
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
   </form>
+
+  <div class="login-help">
+    <p><strong>Credenciais de teste:</strong></p>
+    <p>Usuário: admin</p>
+    <p>Senha: 123</p>
+  </div>
+</div>

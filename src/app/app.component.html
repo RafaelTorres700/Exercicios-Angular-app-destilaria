@@ -1,11 +1,11 @@
 <div>
   <!-- Mostrar navegação apenas se não estiver na rota de login -->
-  <nav>
+  <nav *ngIf="showNavigation()">
     <a routerLink="/home">Home</a>
     <a routerLink="/sobre">Sobre</a>
     <a routerLink="/servicos">Serviços</a>
     <a routerLink="/contato">Contato</a>
-
+    <button (click)="logout()">Sair</button>
   </nav>
 </div>
 
