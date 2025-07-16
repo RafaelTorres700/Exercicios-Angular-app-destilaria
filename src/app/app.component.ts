@@ -3,12 +3,14 @@ import { Router, RouterModule, RouterOutlet, NavigationEnd } from '@angular/rout
 import { CommonModule } from '@angular/common';
 import { filter } from 'rxjs/operators';
 import { FooterComponent } from '../footer/footer.component';
+import { NgbdCarouselBasic } from '../carousel/carousel.component';
+
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterModule, CommonModule, FooterComponent],
+  imports: [RouterOutlet, RouterModule, CommonModule, FooterComponent, NgbdCarouselBasic],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
