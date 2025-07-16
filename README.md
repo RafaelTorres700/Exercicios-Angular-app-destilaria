@@ -1,3 +1,14 @@
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5 / CSS3 / JavaScript
+- Angular 19
+- Node.js / Express
+- MySQL
+- [Outras tecnologias futuras a depender da evolução do projeto]
+
+---
+
 # 🥃 Destilaria Vintage & Cia
 
 <div align="center">
@@ -40,15 +51,6 @@ Organizamos eventos especiais para empresas, aniversários, casamentos e outras 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- HTML5 / CSS3 / JavaScript
-- Angular 19
-- Node.js / Express
-- MySQL
-- [Outras tecnologias futuras a depender da evolução do projeto]
-
----
 
 ## 📂 Organização do Projeto
 
