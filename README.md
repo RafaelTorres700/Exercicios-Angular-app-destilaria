@@ -1,10 +1,16 @@
+# Exercicio de Angular 19 com :
+# Componentes e Rotas,
+# Consumo de Service e Renderização com Cards,
+# Autenticação e Rota Protegida,
+# Rodapé e Carrossel no Angular 19,
+#  Formulário de Contato com Reactive Forms;
+
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5 / CSS3 / JavaScript
+- HTML5 / CSS3 / Typescript
 - Angular 19
-- Node.js / Express
-- MySQL
+- Node.js
 - [Outras tecnologias futuras a depender da evolução do projeto]
 
 ---
