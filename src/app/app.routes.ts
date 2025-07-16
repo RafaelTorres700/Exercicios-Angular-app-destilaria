@@ -7,6 +7,8 @@ import { PainelComponent } from '../painel/painel.component';
 import { authGuard } from './guards/auth.guard';
 import { FooterComponent } from '../footer/footer.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { NgbdCarouselBasic } from '../carousel/carousel.component';
+
 
 export const routes: Routes = [
   {
@@ -16,6 +18,11 @@ export const routes: Routes = [
   {
     path: 'cadastro',
     component: CadastroComponent
+  },
+  {
+    path: 'carousel',
+    component: NgbdCarouselBasic,
+    canActivate: [authGuard]
   },
   {
     path: 'home',

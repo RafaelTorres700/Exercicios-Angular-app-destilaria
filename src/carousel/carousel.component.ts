@@ -10,5 +10,9 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 export class NgbdCarouselBasic  {
 
 
-	images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+	images = [
+     '/Gin-Bombay-Sapphire.jpg',
+    '/conhaque.jpg',
+    '/fotos-do-jose-cuervo.jpg'
+  ];
 }

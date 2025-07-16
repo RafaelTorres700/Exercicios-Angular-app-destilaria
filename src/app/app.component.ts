@@ -36,4 +36,9 @@ export class AppComponent {
     localStorage.removeItem('isLoggedIn');
     this.router.navigate(['/login']);
   }
+
+  isrootPage(): boolean {
+    return this.currentRoute === '/';
+  }
+
 }
